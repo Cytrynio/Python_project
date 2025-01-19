@@ -1,0 +1,76 @@
+1733661213366	geckodriver	INFO	Listening on 127.0.0.1:58569
+1733661216461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58570" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Marcin\\AppData\\Local\\Temp\\rust_mozprofileurW3bJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733661217068	Marionette	INFO	Marionette enabled
+1733661217192	Marionette	INFO	Listening on port 58582
+WebDriver BiDi listening on ws://127.0.0.1:58570
+Read port: 58582
+1733661217387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[fluent] Missing message in locale pl: private-browsing-indicator-tooltip
+[fluent] Missing message in locale pl: shopping-sidebar-open-button2
+[fluent] Missing message in locale pl: private-browsing-indicator-tooltip
+[fluent] Missing message in locale pl: menu-view-genai-chat
+[fluent] Missing message in locale pl: menu-view-review-checker
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1733661221470	Marionette	INFO	Stopped listening on port 58582
+Dynamically enable window occlusion 1
+1733661283983	geckodriver	INFO	Listening on 127.0.0.1:58673
+1733661287040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58674" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Marcin\\AppData\\Local\\Temp\\rust_mozprofilefmEGtO"
+1733661306632	geckodriver	INFO	Listening on 127.0.0.1:58711
+1733661309701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58712" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Marcin\\AppData\\Local\\Temp\\rust_mozprofileSokbbH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733661309957	Marionette	INFO	Marionette enabled
+1733661310049	Marionette	INFO	Listening on port 58721
+WebDriver BiDi listening on ws://127.0.0.1:58712
+Read port: 58721
+1733661310195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[fluent] Missing message in locale pl: shopping-sidebar-open-button2
+[fluent] Missing message in locale pl: menu-view-genai-chat
+[fluent] Missing message in locale pl: menu-view-review-checker
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1733661314061	Marionette	INFO	Stopped listening on port 58721
+Dynamically enable window occlusion 1
+1733661528967	geckodriver	INFO	Listening on 127.0.0.1:58895
+1733661532017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58896" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Marcin\\AppData\\Local\\Temp\\rust_mozprofile3Fo7vn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733661532281	Marionette	INFO	Marionette enabled
+1733661532376	Marionette	INFO	Listening on port 58904
+WebDriver BiDi listening on ws://127.0.0.1:58896
+Read port: 58904
+1733661532531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[fluent] Missing message in locale pl: shopping-sidebar-open-button2
+[fluent] Missing message in locale pl: menu-view-genai-chat
+[fluent] Missing message in locale pl: menu-view-review-checker
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.saucedemo.com/static/js/2.84a5cbf3.chunk.js, line 2: Script terminated by timeout at:
+get@https://www.saucedemo.com/static/js/2.84a5cbf3.chunk.js:2:123427
+r/936/n/7429/value/<@https://www.saucedemo.com/static/js/2.84a5cbf3.chunk.js:2:56726
+
+1733661541124	Marionette	INFO	Stopped listening on port 58904
+Dynamically enable window occlusion 1
+1733694894821	geckodriver	INFO	Listening on 127.0.0.1:58082
+1733694897873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Marcin\\AppData\\Local\\Temp\\rust_mozprofileTI1X2q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733694898175	Marionette	INFO	Marionette enabled
+1733694898282	Marionette	INFO	Listening on port 58091
+WebDriver BiDi listening on ws://127.0.0.1:58083
+Read port: 58091
+1733694898443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[fluent] Missing message in locale pl: shopping-sidebar-open-button2
+[fluent] Missing message in locale pl: menu-view-genai-chat
+[fluent] Missing message in locale pl: menu-view-review-checker
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1733694902369	Marionette	INFO	Stopped listening on port 58091
+Dynamically enable window occlusion 1
