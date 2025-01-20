@@ -1,5 +1,4 @@
 # Anagram
-from robot.utils import is_number
 #
 #
 # def anagram(word1,word2):
