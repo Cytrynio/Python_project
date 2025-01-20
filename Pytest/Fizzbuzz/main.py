@@ -17,4 +17,5 @@ def fizzbuzz(i):
         return None
     except TypeError:
         print("Zły typ danych")
+
 fizzbuzz(loop())

@@ -1,4 +1,4 @@
-from multiply.main import multiply
+from main import multiply
 
 def test_multiply_integer():
     assert multiply(2,5) == 10
