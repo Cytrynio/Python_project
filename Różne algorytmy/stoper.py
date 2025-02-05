@@ -11,3 +11,6 @@ def stoper():
     
     elapsed_time = end_time - start_time  # Oblicza różnicę czasów
     print(f"Stoper zatrzymany! Minęło {elapsed_time:.2f} sekund.")
+
+
+stoper()
