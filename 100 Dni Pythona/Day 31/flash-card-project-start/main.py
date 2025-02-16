@@ -34,7 +34,7 @@ def flip_card():
 def right_guess():
     words_to_learn.remove(current_card)
     data = pandas.DataFrame(words_to_learn)
-    data.to_csv('data/words_to_learn', index=False)
+    data.to_csv('data/words_to_learn', index=False )
     next_card()
 
 # TKINTER CONFIG
