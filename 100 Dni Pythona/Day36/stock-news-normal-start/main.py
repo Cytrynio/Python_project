@@ -13,7 +13,7 @@ STOCK_API = os.environ.get('STOCK_API')
 NEWS_API = os.environ.get('NEW_API')
 
 account_sid = "ACe1bddcb8b1b001e5693d1575bafef782"
-auth_token =  os.environ.get("AUTH_TOKEN")
+auth_token = "w"
 
 
 # --- STOCK DATA ---
@@ -23,7 +23,7 @@ def get_stock_data():
     stock_parameters = {
         "function": "TIME_SERIES_DAILY",
         "symbol":STOCK_NAME,
-        "apikey":STOCK_API
+        "apikey":"w"
     }
 
     stock_response = requests.get(STOCK_ENDPOINT, params=stock_parameters)
@@ -50,10 +50,10 @@ def calculate_change(yesterday_close, day_before_yesterday_close):
 
 def get_news(dates):
     news_parameters = {
-        "q": COMPANY_NAME,
+        "qInTitle": COMPANY_NAME,
         "from": dates[0],
         "sortBy": "popularity",
-        "apiKey": NEWS_API
+        "apiKey": "w"
     }
 
     news_response = requests.get(NEWS_ENDPOINT, params=news_parameters)
@@ -61,7 +61,7 @@ def get_news(dates):
         news_response.raise_for_status()
         news_data = news_response.json()["articles"][:3]
         news_list = [[article.get('title', 'Brak tytułu'), article.get('description', 'Brak opisu')] for article in news_data]
-        print(news_list)
+
         return news_list
     except requests.exceptions.RequestException as e:
         print(f"Request failed: {e}")
@@ -82,7 +82,7 @@ def main():
         rand_articles = random.choice(articles)
         rand_news_title = rand_articles[0]
         rand_news_description = rand_articles[1]
-        print(rand_articles)
+
         if change > 0.01:
             client = Client(account_sid, auth_token)
             message = client.messages.create(
@@ -90,7 +90,7 @@ def main():
                      f"Headline: {rand_news_title}({STOCK_NAME})?. "
                      f"Brief: {rand_news_description}",
                 from_="+18573418987",
-                to="+48692313074",
+                to="+w",
             )
             print("Stock raises")
             print(message.status)
@@ -101,7 +101,7 @@ def main():
                      f"Headline: {rand_news_title}({STOCK_NAME})?. "
                      f"Brief: {rand_news_description}",
                 from_="+18573418987",
-                to="+48692313074",
+                to="+w"
             )
             print("Stock dropped")
             print(message.status)

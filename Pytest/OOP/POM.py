@@ -4,7 +4,7 @@ from main import LoginPage
 from time import sleep
 
 def test_login_page():
-    driver = webdriver.Firefox()
+    driver = webdriver.chrome()
     page = LoginPage(driver)
     page.open()
     page.print_page_info()
